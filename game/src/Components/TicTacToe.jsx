@@ -36,6 +36,9 @@ const Board = styled.div`
   width: 90%;
   max-width: 300px;
   margin-top: 20px;
+    margin-right:71px;
+  @media (max-width: 480px) {
+    margin-right:71px;
 `;
 const Reset = styled.button`
  width: 200px;
@@ -57,16 +60,16 @@ const Boxes = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90px;
-  width: 90px;
+  height: 130px;
+  width: 130px;
   background: #1f3540;
   border: 3px solid #0f1b21;
   border-radius: 12px;
   cursor: pointer;
 
   @media (max-width: 480px) {
-    height: 80px;
-    width: 80px;
+    height: 110px;
+    width: 110px;
   }
 `;
 
